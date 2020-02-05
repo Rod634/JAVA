@@ -10,15 +10,4 @@ public class Passivo extends Conta
         this.obrigacoes = obrigacoes;
     }
 
-    public void debitar(double saldo)
-    {
-       if(saldo > 0 && this.saldo > 0)
-            this.saldo -= saldo;
-    }
-    
-    public void creditar(double saldo)
-    {
-        if(saldo > 0)
-            this.saldo += saldo;
-    }
 }

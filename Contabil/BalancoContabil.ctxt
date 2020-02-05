@@ -1,3 +1,5 @@
 #BlueJ class context
 comment0.target=BalancoContabil
-numComments=1
+comment1.params=contas
+comment1.target=BalancoContabil(Conta[])
+numComments=2

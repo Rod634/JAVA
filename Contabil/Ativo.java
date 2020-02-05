@@ -13,13 +13,13 @@ public class Ativo extends Conta
     public void debitar(double saldo)
     {
         if(saldo > 0)
-            this.saldo += saldo;
+            super.saldo += saldo;
     }
     
     public void creditar(double saldo)
     {
         if(saldo > 0 && this.saldo > 0)
-            this.saldo -= saldo;
+            super.saldo -= saldo;
     }
     
 }

@@ -2,4 +2,8 @@
 comment0.target=Conta
 comment1.params=nome\ saldo
 comment1.target=Conta(java.lang.String,\ double)
-numComments=2
+comment2.params=saldo
+comment2.target=void\ debitar(double)
+comment3.params=saldo
+comment3.target=void\ creditar(double)
+numComments=4

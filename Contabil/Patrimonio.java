@@ -8,15 +8,4 @@ public class Patrimonio extends Conta
        this.proprios = proprios;
    }
    
-   public void debitar(double saldo)
-   {
-       if(saldo > 0 && this.saldo > 0)
-            this.saldo -= saldo;
-   }
-    
-   public void creditar(double saldo)
-   {
-        if(saldo > 0)
-            this.saldo += saldo;
-   }
 }

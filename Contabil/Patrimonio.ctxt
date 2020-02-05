@@ -2,8 +2,4 @@
 comment0.target=Patrimonio
 comment1.params=nome\ saldo\ proprios
 comment1.target=Patrimonio(java.lang.String,\ double,\ java.lang.String[])
-comment2.params=saldo
-comment2.target=void\ debitar(double)
-comment3.params=saldo
-comment3.target=void\ creditar(double)
-numComments=4
+numComments=2
