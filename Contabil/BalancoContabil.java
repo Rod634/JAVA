@@ -1,4 +1,4 @@
-public class BalancoContabil extends Conta
+public class BalancoContabil
 {
    private Conta[] contas;
 }

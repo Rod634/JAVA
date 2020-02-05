@@ -1,3 +1,5 @@
 #BlueJ class context
 comment0.target=Conta
-numComments=1
+comment1.params=nome\ saldo
+comment1.target=Conta(java.lang.String,\ double)
+numComments=2
