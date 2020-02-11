@@ -22,7 +22,7 @@ public class Teste {
         Pag pa = new Pag('A',1);
         circular.add(pa);
         
-        
+        circular.proximoNo();
         System.out.println("Tamanho da memoria " + tam + "\n");
         
         System.out.println("Primeira chance\n");
@@ -36,14 +36,15 @@ public class Teste {
         
     	System.out.println();
         	
-        for(int i = 0; i< qtdPro; i++) {
-        	if(circular.getNo().getBitr() == 1) {
+        for(int i = 0; i< tam; i++) {
+        	if(circular.getNo().getBitr() == 1 && qtdPro > 0) {
         		circular.getNo().setBitR(0);
         		circular.proximoNo();
         	}	
         }	
         
         System.out.println("Segunda chance\n");
+      
         
         for(int i = 0; i < tam; i++) {
         	if(circular.getNo().getBitr() == 0 || circular.getNo().getBitr() == 1) {
@@ -52,7 +53,8 @@ public class Teste {
         	}
         }
         
-        for(int i = 0; i < tam; i++) {
+        
+        for(int i = 0; i < qtdPro; i++) {
         	if(circular.getNo().getBitr() == 0) {
         		System.out.println("\nPROCESSO: " + circular.getNo().getId() + " BitR: " + circular.getNo().getBitr() + " saiu\n");
         		circular.getNo().setBitR(-1);
@@ -70,11 +72,8 @@ public class Teste {
 	         	circular.proximoNo();
         	}else {
         		circular.proximoNo();
-        	}
-        		
-        }
-        
-        
+        	}		
+        } 
     }
 }
 
